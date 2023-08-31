@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+.dasdama {
+    text-decoration: none;
+}
+.blocked {
+    background-color: transparent !important;
+    border: 1px solid red !important;
+    color: red !important;
+}
+.card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0.1px rgba(0, 0, 0, 0.491);
+    font-family: 'REM', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .image-cover {
+        border-radius: 10px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .short-dec {
+        font-size: 14px;
+        color: gray;
+        height: 80px;
+        overflow: hidden;
+        // background-color: red;
+        // background-color: red;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    .row-1 {
+        .title {
+            color: #0A4D68;
+            max-width: 70%;
+        }
+
+        .price {
+            color: #0A4D68;
+        }
+    }
+
+    .row-2 {
+        margin-top: 20px;
+
+        .saved {
+            background-color: rgb(107, 228, 96) !important;
+        }
+
+        .asdmsa {
+            font-size: 15px;
+            transform: translate(5px, 2px);
+        }
+
+        button {
+            border: 0;
+            outline: 0;
+            font-weight: bold;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                cursor: pointer;
+                padding: 10px 25px;
+            }
+        }
+
+        .cart {
+            background-color: #088395;
+        }
+
+        .book {
+            background-color: rgb(255, 93, 93);
+        }
+    }
+
+    .line {
+        border-top: 1px solid #00FFCA;
+        width: 100%;
+    }
+
+    .amen {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        width: 100%;
+
+        .col {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            .asddca {
+                font-size: 23px;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+* {
+    font-family: 'REM', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+    
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .saved {
+            cursor: pointer;
+            background-color: #088395;
+            padding: 10px 20px;
+            color: white;border-radius: 5px;
+        }
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+
+        .ads {
+            font-size: 30px;
+        }
+    }
+}
